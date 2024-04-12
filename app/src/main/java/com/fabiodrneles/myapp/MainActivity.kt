@@ -42,12 +42,9 @@ class MainActivity : ComponentActivity() {
             MyAppTheme {
                 ListaDeProdutos(viewModel = viewModel)
                 //ProductItem(produto = Produto(title = "", price = "", seller = "", thumbnailHd = ""))
-
             }
         }
-
     }
-
 }
 
 
@@ -129,12 +126,9 @@ fun ListaDeProdutos(viewModel: MainViewModel) {
                             fontWeight = FontWeight(400),
                             fontStyle = FontStyle.Italic
                         )
-
                     }
                 }
             }
-
-
         }
     }
 }
